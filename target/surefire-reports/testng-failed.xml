@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.amazon.testsuite.HomePageTest">
+        <methods>
+          <include name="goToAmazonPay"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyUser"/>
+          <include name="verifyAmazonPay"/>
+        </methods>
+      </class> <!-- com.qa.amazon.testsuite.HomePageTest -->
+      <class name="com.qa.amazon.testsuite.AmazonPayPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkAmazonPayBalance"/>
+        </methods>
+      </class> <!-- com.qa.amazon.testsuite.AmazonPayPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
