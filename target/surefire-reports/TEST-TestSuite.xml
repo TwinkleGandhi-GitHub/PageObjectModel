@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="5" name="TestSuite" time="57.93" errors="0" skipped="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="AmazonTestSuite"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\Endpoint Security\Logs"/>
+    <property name="JENKINS_HOME" value="C:\Users\i341714\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="24f9a587d62e3455"/>
+    <property name="POM_ARTIFACTID" value="AmazonAppTest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_251\lib\resources.jar;C:\Program Files\Java\jre1.8.0_251\lib\rt.jar;C:\Program Files\Java\jre1.8.0_251\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_251\lib\jce.jar;C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_251\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="AmazonAppTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\i341714\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="I341714"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="AmazonTestSuite"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/AmazonTestSuite/17/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#17"/>
+    <property name="OneDrive" value="C:\Users\i341714\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\i341714\AppData\Local"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="I341714"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="SSF_LIBRARY_PATH_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\endorsed"/>
+    <property name="BUILD_ID" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_251"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/AmazonTestSuite/17/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\i341714\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="user.variant" value=""/>
+    <property name="NEXTHINK" value="C:\Program Files\Nexthink\Collector"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/AmazonTestSuite/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="GLOBAL"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_241"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\i341714"/>
+    <property name="USERDNSDOMAIN" value="global.corp.sap"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SSF_LIBRARY_PATH" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="INLN56597652A"/>
+    <property name="POM_GROUPID" value="AmazonAppTest"/>
+    <property name="user.home" value="C:\Users\i341714"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-AmazonTestSuite-17"/>
+    <property name="JENKINS_SERVER_COOKIE" value="24f9a587d62e3455"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="SNC_LIB_64" value="C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\i341714"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Java\jdk1.8.0_241\bin\;C:\Users\i341714\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\i341714\AppData\Roaming"/>
+    <property name="SNC_LIB" value="C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\i341714\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\i341714\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\i341714\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\i341714\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 65199"/>
+    <property name="Path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Java\jdk1.8.0_241\bin\;C:\Users\i341714\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.io.tmpdir" value="C:\Users\i341714\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\i341714\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/AmazonTestSuite/17/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Work\Eclipse Workspace\FreeCRMTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/AmazonTestSuite/"/>
+    <property name="LOGONSERVER" value="\\DS1PHL0002"/>
+    <property name="USERDOMAIN" value="GLOBAL"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\i341714\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="17"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Work\Jenkins_2"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\i341714\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="homeloc" value="In_blr10"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\i341714\.jenkins\workspace\AmazonTestSuite@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\i341714\.jenkins\workspace\AmazonTestSuite"/>
+    <property name="maven3.interceptor.common" value="C:\Users\i341714\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.qa.amazon.testsuite.AmazonPayPageTest" name="setUp" time="23.947">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d26169e469ada83185253933a1cd011e
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d26169e469ada83185253933a1cd011e
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.amazon.pages.HomePage.clickOnAmazonPay(HomePage.java:41)
+	at com.qa.amazon.testsuite.AmazonPayPageTest.setUp(AmazonPayPageTest.java:31)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@50cbc42f
+Before navigating to: &apos;https://www.amazon.in/&apos;
+Navigated to:&apos;https://www.amazon.in/&apos;
+Trying to find Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Found Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d26169e469ada83185253933a1cd011e)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d26169e469ada83185253933a1cd011e)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Trying to find Element By : By.id: ap_email
+Found Element By : By.id: ap_email
+Trying to find Element By : By.id: continue
+Found Element By : By.id: continue
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d26169e469ada83185253933a1cd011e)] -&gt; id: continue]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d26169e469ada83185253933a1cd011e)] -&gt; id: continue]
+Trying to find Element By : By.id: ap_password
+Found Element By : By.id: ap_password
+Trying to find Element By : By.id: signInSubmit
+Found Element By : By.id: signInSubmit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d26169e469ada83185253933a1cd011e)] -&gt; id: signInSubmit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d26169e469ada83185253933a1cd011e)] -&gt; id: signInSubmit]
+Trying to find Element By : By.xpath: //a[@tabindex=26]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d26169e469ada83185253933a1cd011e
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 14517
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 15, 2020 4:47:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589541435.734][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541435.839][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541435.946][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541436.058][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541436.162][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541436.266][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541436.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541436.886][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541437.653][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541437.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541437.940][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541438.150][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541438.254][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541440.266][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541440.387][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541440.564][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541440.677][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541440.933][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541443.488][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541443.590][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541443.699][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.amazon.testsuite.AmazonPayPageTest" name="checkAmazonPayBalance" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.amazon.testsuite.AmazonPayPageTest" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.amazon.testsuite.HomePageTest" name="verifyHomePageTitle" time="0.026">
+    <failure message="expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Authentication required]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Authentication required]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.qa.amazon.testsuite.HomePageTest.verifyHomePageTitle(HomePageTest.java:34)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.amazon.in/&apos;
+Navigated to:&apos;https://www.amazon.in/&apos;
+Trying to find Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Found Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (db67475f3002276f77cb8f950d874583)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (db67475f3002276f77cb8f950d874583)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Trying to find Element By : By.id: ap_email
+Found Element By : By.id: ap_email
+Trying to find Element By : By.id: continue
+Found Element By : By.id: continue
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (db67475f3002276f77cb8f950d874583)] -&gt; id: continue]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (db67475f3002276f77cb8f950d874583)] -&gt; id: continue]
+Trying to find Element By : By.id: ap_password
+Found Element By : By.id: ap_password
+Trying to find Element By : By.id: signInSubmit
+Found Element By : By.id: signInSubmit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (db67475f3002276f77cb8f950d874583)] -&gt; id: signInSubmit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (db67475f3002276f77cb8f950d874583)] -&gt; id: signInSubmit]
+Authentication required
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 2190
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 15, 2020 4:47:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589541457.447][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541457.549][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541458.365][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541458.807][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541458.911][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541459.017][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541459.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541461.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541461.742][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541461.843][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541461.945][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541462.047][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541462.150][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541462.388][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541462.494][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541465.287][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541465.462][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.amazon.testsuite.HomePageTest" name="verifyUser" time="10.058">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&quot;nav-link-accountList&quot;]/span[1]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bfd87006d4db0223d2b465c82ca606
+*** Element info: {Using=xpath, value=//a[@id=&quot;nav-link-accountList&quot;]/span[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&quot;nav-link-accountList&quot;]/span[1]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bfd87006d4db0223d2b465c82ca606
+*** Element info: {Using=xpath, value=//a[@id=&quot;nav-link-accountList&quot;]/span[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.qa.amazon.pages.HomePage.getCurrentUser(HomePage.java:32)
+	at com.qa.amazon.testsuite.HomePageTest.verifyUser(HomePageTest.java:40)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.amazon.in/&apos;
+Navigated to:&apos;https://www.amazon.in/&apos;
+Trying to find Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Found Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (41bfd87006d4db0223d2b465c82ca606)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (41bfd87006d4db0223d2b465c82ca606)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Trying to find Element By : By.id: ap_email
+Found Element By : By.id: ap_email
+Trying to find Element By : By.id: continue
+Found Element By : By.id: continue
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (41bfd87006d4db0223d2b465c82ca606)] -&gt; id: continue]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (41bfd87006d4db0223d2b465c82ca606)] -&gt; id: continue]
+Trying to find Element By : By.id: ap_password
+Found Element By : By.id: ap_password
+Trying to find Element By : By.id: signInSubmit
+Found Element By : By.id: signInSubmit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (41bfd87006d4db0223d2b465c82ca606)] -&gt; id: signInSubmit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (41bfd87006d4db0223d2b465c82ca606)] -&gt; id: signInSubmit]
+Trying to find Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]/span[1]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@id=&quot;nav-link-accountList&quot;]/span[1]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bfd87006d4db0223d2b465c82ca606
+*** Element info: {Using=xpath, value=//a[@id=&quot;nav-link-accountList&quot;]/span[1]}
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 9476
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 15, 2020 4:47:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589541469.364][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541469.764][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541470.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541470.582][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541470.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541470.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541470.968][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.064][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.288][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.396][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.509][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.615][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.776][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541473.879][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541476.383][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541476.583][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.amazon.testsuite.HomePageTest" name="verifyAmazonPay" time="10.071">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37b28c135faaf722975c002fd7b72920
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37b28c135faaf722975c002fd7b72920
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.qa.amazon.pages.HomePage.verifyAmazonPayLink(HomePage.java:37)
+	at com.qa.amazon.testsuite.HomePageTest.verifyAmazonPay(HomePageTest.java:45)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.amazon.in/&apos;
+Navigated to:&apos;https://www.amazon.in/&apos;
+Trying to find Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Found Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (37b28c135faaf722975c002fd7b72920)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (37b28c135faaf722975c002fd7b72920)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Trying to find Element By : By.id: ap_email
+Found Element By : By.id: ap_email
+Trying to find Element By : By.id: continue
+Found Element By : By.id: continue
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (37b28c135faaf722975c002fd7b72920)] -&gt; id: continue]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (37b28c135faaf722975c002fd7b72920)] -&gt; id: continue]
+Trying to find Element By : By.id: ap_password
+Found Element By : By.id: ap_password
+Trying to find Element By : By.id: signInSubmit
+Found Element By : By.id: signInSubmit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (37b28c135faaf722975c002fd7b72920)] -&gt; id: signInSubmit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (37b28c135faaf722975c002fd7b72920)] -&gt; id: signInSubmit]
+Trying to find Element By : By.xpath: //a[@tabindex=26]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 37b28c135faaf722975c002fd7b72920
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 1915
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 15, 2020 4:48:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589541492.654][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541492.971][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541493.481][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541493.602][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541493.707][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541493.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541495.857][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541498.612][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541498.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541498.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541498.919][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541499.020][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541499.122][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541499.224][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541499.327][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541499.428][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.amazon.testsuite.HomePageTest" name="goToAmazonPay" time="10.071">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fad4e75f97e696140a7db6a0a4acbcd
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fad4e75f97e696140a7db6a0a4acbcd
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.amazon.pages.HomePage.clickOnAmazonPay(HomePage.java:41)
+	at com.qa.amazon.testsuite.HomePageTest.goToAmazonPay(HomePageTest.java:50)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.amazon.in/&apos;
+Navigated to:&apos;https://www.amazon.in/&apos;
+Trying to find Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Found Element By : By.xpath: //a[@id=&quot;nav-link-accountList&quot;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4fad4e75f97e696140a7db6a0a4acbcd)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4fad4e75f97e696140a7db6a0a4acbcd)] -&gt; xpath: //a[@id=&quot;nav-link-accountList&quot;]]
+Trying to find Element By : By.id: ap_email
+Found Element By : By.id: ap_email
+Trying to find Element By : By.id: continue
+Found Element By : By.id: continue
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4fad4e75f97e696140a7db6a0a4acbcd)] -&gt; id: continue]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4fad4e75f97e696140a7db6a0a4acbcd)] -&gt; id: continue]
+Trying to find Element By : By.id: ap_password
+Found Element By : By.id: ap_password
+Trying to find Element By : By.id: signInSubmit
+Found Element By : By.id: signInSubmit
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4fad4e75f97e696140a7db6a0a4acbcd)] -&gt; id: signInSubmit]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4fad4e75f97e696140a7db6a0a4acbcd)] -&gt; id: signInSubmit]
+Trying to find Element By : By.xpath: //a[@tabindex=26]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@tabindex=26]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;INLN56597652A&apos;, ip: &apos;192.168.184.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\i341714\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4fad4e75f97e696140a7db6a0a4acbcd
+*** Element info: {Using=xpath, value=//a[@tabindex=26]}
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 11065
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 15, 2020 4:48:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589541515.670][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541516.105][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541516.430][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541516.978][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541517.087][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589541517.296][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.qa.amazon.testsuite.LoginPageTest" name="checkTitle" time="0.016"/>
+  <testcase classname="com.qa.amazon.testsuite.LoginPageTest" name="checkLogo" time="0.153"/>
+  <testcase classname="com.qa.amazon.testsuite.LoginPageTest" name="login" time="3.584"/>
+  <testcase classname="com.qa.amazon.testsuite.NewTest" name="runData" time="0.001"/>
+  <testcase classname="com.qa.amazon.testsuite.NewTest" name="runData" time="0"/>
+  <testcase classname="com.qa.amazon.testsuite.NewTest" name="runData" time="0"/>
+  <testcase classname="com.qa.amazon.testsuite.NewTest" name="runData" time="0.001"/>
+  <testcase classname="com.qa.amazon.testsuite.NewTest" name="runData" time="0"/>
+</testsuite>
