@@ -11,7 +11,7 @@ public class AmazonPay extends TestBase{
 	@FindBy(xpath="//div/span[@class=\"currency-green\"]")
 	WebElement amazonPayBalance;
 	
-	
+	// AmazonPay class constructor
 	public AmazonPay() {
 		PageFactory.initElements(driver, this);
 	}
